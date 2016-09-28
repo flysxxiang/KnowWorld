@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="CardViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/newsitem_margin_ud</item>
+        <item name="android:layout_marginLeft">@dimen/newsitem_margin_lr</item>
+        <item name="android:layout_marginRight">@dimen/newsitem_margin_lr</item>
+        <item name="android:layout_marginTop">@dimen/newsitem_margin_ud</item>
+    </style>
+
+    <!--侧滑栏style设置-->
+    <style name="NavigationStyle">
+        <item name="android:textSize">15sp</item>
+        <!--正常状态下字体颜色和icon颜色-->
+        <item name="android:textColorPrimary">@color/titleTextColor</item>
+        <!--选中状态icon的颜色和字体颜色-->
+        <item name="colorPrimary">@color/accent_material_light</item>
+    </style>
+</resources>

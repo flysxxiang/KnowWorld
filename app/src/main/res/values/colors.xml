@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00796B</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#666666</color>
+    <color name="colorTablayout">#000009</color>
+
+    <!--背景颜色-->
+    <color name="colorBg">#f0f0f0</color>
+
+    <!--导航栏颜色-->
+    <color name="colorTooBar_bar">#00796B</color>
+
+    <!--toolbar颜色-->
+    <color name="colorTooBar">#009688</color>
+
+    <!--侧滑菜单字体颜色-->
+    <color name="colorNavigationText">#666666</color>
+    <color name="colorNavigationIcon">#00BFFF</color>
+
+    <!--新闻字体颜色-->
+    <color name="titleTextColor">#000000</color>
+    <color name="bottomTextColor">#666666</color>
+</resources>

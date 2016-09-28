@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!--NavigationView 的菜单选项-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <!--  android:checked="true" 默认被选-->
+        <item
+            android:id="@+id/navigation_news"
+            android:checked="true"
+            android:icon="@drawable/ic_new"
+            android:title="@string/navigation_news" />
+
+        <item
+            android:id="@+id/navigation_zhihu"
+            android:icon="@drawable/ic_zhihu"
+            android:title="@string/navigation_zhihu" />
+
+        <item
+            android:id="@+id/navigation_weixin"
+            android:icon="@drawable/ic_wechat"
+            android:title="@string/navigation_weixin" />
+
+        <!--<item-->
+            <!--android:id="@+id/navigation_img"-->
+            <!--android:title="@string/navigation_img" />-->
+    </group>
+
+    <!--<item android:title="@string/navigation_other">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/navigation_other"-->
+                <!--android:title="@string/navigation_other" />-->
+        <!--</menu>-->
+    <!--</item>-->
+</menu>

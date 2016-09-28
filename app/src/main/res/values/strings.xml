@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">知天下</string>
+    <string name="app_name_cn">知天下</string>
+    <string name="action_settings">Settings</string>
+
+    <!--导航栏菜单-->
+    <string name="navigation_news">新闻</string>
+    <string name="navigation_zhihu">知乎头条</string>
+    <string name="navigation_weixin">微信精选</string>
+    <string name="navigation_img">美图</string>
+    <string name="navigation_other">其他</string>
+
+    <!--菜单栏-->
+    <string name="action_setting">设置</string>
+    <string name="action_about">关于</string>
+
+    <!--tablayout标题-->
+    <string-array name="title_news">
+        <item>国内</item>
+        <item>国际</item>
+        <item>娱乐</item>
+        <item>军事</item>
+        <item>体育</item>
+        <item>互联网</item>
+        <item>财经</item>
+        <item>游戏</item>
+        <item>汽车</item>
+    </string-array>
+
+    <!--tablayout每一个fragment对于频道ID-->
+    <string-array name="channelId_news">
+        <item>5572a108b3cdc86cf39001cd</item>
+        <item>5572a108b3cdc86cf39001ce</item>
+        <item>5572a108b3cdc86cf39001d5</item>
+        <item>5572a108b3cdc86cf39001cf</item>
+        <item>5572a108b3cdc86cf39001d4</item>
+        <item>5572a108b3cdc86cf39001d1</item>
+        <item>5572a108b3cdc86cf39001d0</item>
+        <item>5572a108b3cdc86cf39001d6</item>
+        <item>5572a108b3cdc86cf39001d3</item>
+    </string-array>
+</resources>
